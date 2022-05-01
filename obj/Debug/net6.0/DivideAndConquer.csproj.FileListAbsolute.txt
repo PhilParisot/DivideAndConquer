@@ -1,0 +1,15 @@
+/home/ppari/Repos/DivideAndConquer/bin/Debug/net6.0/DivideAndConquer
+/home/ppari/Repos/DivideAndConquer/bin/Debug/net6.0/DivideAndConquer.deps.json
+/home/ppari/Repos/DivideAndConquer/bin/Debug/net6.0/DivideAndConquer.runtimeconfig.json
+/home/ppari/Repos/DivideAndConquer/bin/Debug/net6.0/DivideAndConquer.dll
+/home/ppari/Repos/DivideAndConquer/bin/Debug/net6.0/DivideAndConquer.pdb
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.csproj.AssemblyReference.cache
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.GeneratedMSBuildEditorConfig.editorconfig
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.AssemblyInfoInputs.cache
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.AssemblyInfo.cs
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.csproj.CoreCompileInputs.cache
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.dll
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/refint/DivideAndConquer.dll
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.pdb
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/DivideAndConquer.genruntimeconfig.cache
+/home/ppari/Repos/DivideAndConquer/obj/Debug/net6.0/ref/DivideAndConquer.dll
