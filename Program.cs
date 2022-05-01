@@ -1,26 +1,31 @@
-﻿
-Console.WriteLine("Hello
+﻿int[] array = { 6, 5, 7, 4, 8, 3, 8, 4, 7, 54, 2, 8, 43 };
 
-internal static class MergeSortClass
+MergeSortClass mergeSortClass = new();
+
+mergeSortClass.MergeSort(array);
+
+System.Console.WriteLine();
+
+class MergeSortClass
 {
-    static void MergeSort(int[] array)
+    public void MergeSort(IEnumerable<int> array)
     {
         int[] helper = new int[array.Length];
         MergeSort(array, helper, 0, array.Length - 1);
     }
 
-    private static void MergeSort(int[] array, int[] helper, int low, int high)
+    private void MergeSort(int[] array, int[] helper, int low, int high)
     {
         if (low < high)
         {
             int middle = (low + high) / 2;
             MergeSort(array, helper, low, middle);
             MergeSort(array, helper, middle + 1, high);
-            Merge();
+            Merge(array, helper, low, middle, high);
         }
     }
 
-    private void Merge(int[] array, int[] helper, int low, int middle, int high)
+    private static void Merge(int[] array, int[] helper, int low, int middle, int high)
     {
         for (int i = low; i <= high; i++)
         {
