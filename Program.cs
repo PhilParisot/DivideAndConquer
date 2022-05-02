@@ -1,4 +1,6 @@
-﻿int[] array = { 6, 5, 7, 4, 8, 3, 8, 4, 7, 54, 2, 8, 43 };
+﻿
+
+int[] array = { 6, 5, 7, 4, 8, 3, 8, 4, 7, 54, 2, 8, 43 };
 
 MergeSortClass mergeSortClass = new();
 
@@ -8,7 +10,7 @@ System.Console.WriteLine();
 
 class MergeSortClass
 {
-    public void MergeSort(IEnumerable<int> array)
+    public void MergeSort(int[] array)
     {
         int[] helper = new int[array.Length];
         MergeSort(array, helper, 0, array.Length - 1);
@@ -40,7 +42,7 @@ class MergeSortClass
         {
             if (helper[helperLeft] <= helper[helperRight])
             {
-                array[current] = helper[helperRight];
+                array[current] = helper[helperLeft];
                 helperLeft++;
             }
             else
